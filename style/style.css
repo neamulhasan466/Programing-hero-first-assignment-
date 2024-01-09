@@ -1,10 +1,10 @@
 /* css :start */
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: top 50px;
+    padding: left 140px right 140px;
 }
-/* banner part  */
+/* banner part + section1 part*/
 .banner{
     background-image: url(../resources/Banner\ Image.png);
     width: 1320px;
@@ -36,6 +36,11 @@
     width: 600px;
     margin: 0 auto;
   }
+  /* banner part ses  */
+
+
+  /* section2 part start */
+
   .section2{
     text-align: center;
 
@@ -70,6 +75,8 @@
     width: 802.9px;
     margin: 0 auto;
   }
+  /* section2 part close */
+  /* section3 part start */
 
   .section3 > div {
     border-radius: 15px;
@@ -117,12 +124,24 @@
     transition-duration: 0.5s;
   }
   .section3 button:hover{
-    background-color:  red;
+    background-color:  #a1e4a1;
   }
   .section3 img {
+    /* background-image: url(../resources/Vectorrr.png); */
     width: 319.83px;
     height: 464.662px;
   }
+  .section3{
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+height: 600px;
+flex-shrink: 0;
+  }
+/* section3 part close */
+
+/* section4 part start */
+
+
   .section4 {
     margin-top: 100px;
     font-family: "Inter";
@@ -159,6 +178,7 @@
     background-color: #04AA6D;
     color: white;
   }
+  /* section 4 part close */
   .section5 {
     margin-top: 100px;
     font-family: Inter;
@@ -196,10 +216,51 @@
   border: none;
   }
   .section5-h2 {
-    color: #f00;
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .text1{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+  }
+  .img-0{
+    width: 140px;
+height: 140px;
+flex-shrink: 0;
+  }
+  .coming{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+  }
+  .new{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   }
 
+/* section 5 part close */
 
+/* section 6 part start  */
 
 
 
@@ -234,7 +295,7 @@
     margin: 100px 90px;
   }
   .div6-2{
-    background-image: url(/resources/Rectangle\ 2.png);
+    background-image: url(../resources/Rectangle\ 2.png);
     width: 1320px;
     height: 628px;
     border-radius: 8px;
@@ -242,7 +303,7 @@
     background-position: bottom;
   }
   .div6-3{
-    background-image: url(/resources/Rectangle\ 1.png);
+    background-image: url(../resources/Rectangle\ 1.png);
     width: 1320px;
     height: 400px;
     border-radius: 10px;
@@ -260,6 +321,31 @@
     margin-left: 150px;
 
   }
+  .black{
+    color: #070211;
+  }
+  .italy{
+    color: #070211;
+    
+  }
+  .text{
+    font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+  }
+.text-0{
+    font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+  /* section 6 part close */
+
+  /* section 7 part start  */
+
     .section7 {
         margin-top: 100px;
       }
@@ -311,6 +397,14 @@
         tra
         nsition: 0.2s ease-in;
       }
+      /* section 7 part close */
+      /* section 8 part start  */
+      .em{
+        width: 150px;
+height: 150px;
+flex-shrink: 0;
+       position: center;
+      }
       .section8 h2 {
         color: #070211;
         margin-bottom: 22px;
@@ -355,9 +449,11 @@
         color: #fff;
         cursor: pointer;
       }
-
-
       
+/* section 8 part close */
+
+/* footer part start  */
+
       footer {
         background: #070211;
         color: white;
@@ -439,6 +535,6 @@
       }
 
   
-
+/* footer part close  */
 
 
